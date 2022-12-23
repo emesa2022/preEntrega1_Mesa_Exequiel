@@ -13,23 +13,20 @@ html , body , #root {
   flex-direction: column;
 }
 
-a{
-  text-decoration: none;
-  color: white;
-}
-
-header{
-  background-color: #7159c1;
+.header{
+  background-color: darkred;
   color: white;
   padding: 1rem 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px 6px rgba(0, 0, 0,0.2);
-}
 
-header > nav > a{
-  margin-left: 1rem;
+  &Link {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+  }
 }
 
 main {
@@ -38,7 +35,7 @@ main {
 }
 
 footer{
-  background-color: #7159c1;
+  background-color: darkred;
   color: white;
   padding: 1rem 0.5rem;
   font-size: 0.75rem;

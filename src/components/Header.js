@@ -1,13 +1,14 @@
+import Nav from "./Navbar";
+
 const Header = () => {
-    return(
-        <header class="header">
-        <h1 className="headerTitle">Titulo</h1>
-        <nav className="headerNavar">
-          <a className="headerLink" href="#">LINK</a>
-          <a className="headerLink" href="#">LINK</a>
-        </nav>
-      </header>
-    )
+  return (
+    <header class="header">
+      <h1 className="headerTitle">PEPE GIODA</h1>
+      <Nav 
+      isHeader={true}/>
+
+    </header>
+  )
 }
 
 export default Header;

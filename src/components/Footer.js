@@ -1,8 +1,13 @@
+import Nav from "./Navbar";
+
 const Footer = () => {
     return (
         
             <footer>
-                <p>Exequiel 2022</p>
+                <Nav  
+                textLinkFooter="Facebok"
+                hrefLinkFooter = "https://es-la.facebook.com/"/>
+                
             </footer>
 
     )
